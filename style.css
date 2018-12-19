@@ -3,19 +3,25 @@
     padding:0
     box-sizing:border-box;
     font-family: 'Titillium Web', sans-serif;
-
+    font-weight: 600;
 }
 
 body{
 
-    color:#2c3e50;
+    color:rgb(27, 89, 142);
     background-color: #2AF098;   
 }
 
 .container {
     padding: 40px 0;
-}
+    display: block;
+        margin: 10px 200px;
 
+}
+.form {
+    font-size:16px;
+
+}
 
  .container h1{
     width:150px;
@@ -23,28 +29,40 @@ body{
     border-bottom: 5px solid   #2c3e50; 
     margin: 40px auto;
 }
-.form {
-    font-size:16px;
-    max-width: 600px;
-    margin: 0 auto;
 
-}
 
-input[type="checkbox"] + label  {
+input[type="checkbox"] + label span {
     display:inline-block;
-    width:200px;
+    width:20px;
+    height:20px;
+    padding-right: 10px;
+    margin:2px 10px 0 0;
+    vertical-align:middle;
 
 }
 
-
+.container p{
+ margin: 10px 0;   
+    
+}
 .form-text {
-    display: block;
+    
     margin 16px 0;
-    padding:20px 40px;
+    padding:0px 
     border-bottom: 1px solid #27ae60;
     
 }
 
+.text-area{
+    width:50px;
+    height:20px;
+}
+
+
+.form-btn{
+    margin: 50px 0 50px 0;
+    position: absolute;
+    left:30%;
 
 
 
