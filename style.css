@@ -9,7 +9,7 @@
 body{
 
     color:rgb(27, 89, 142);
-    background-color: #2AF098;   
+    background-image: radial-gradient(rgba(42, 240, 152,1),rgb(8, 198, 121,1));   
 }
 
 .container {
