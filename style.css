@@ -41,8 +41,15 @@ input[type="checkbox"] + label span {
 
 }
 
+span {
+    margin-left: 56px;
+}
 .container p{
- margin: 10px 0;   
+ margin: 15px 30px;   
+    
+}
+p .switch{
+ margin:56px;   
     
 }
 .form-text {
