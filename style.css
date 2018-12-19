@@ -71,5 +71,22 @@ p .switch{
     position: absolute;
     left:30%;
 
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 26px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+    
+      background-color: #113774;
+}
 
 
