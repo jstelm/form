@@ -1,16 +1,50 @@
 * {
     margin: 0;
     padding:0
-    border-sizing:border-box;
+    box-sizing:border-box;
+    font-family: 'Titillium Web', sans-serif;
+
 }
 
 body{
-    font:#2c3e50;
-     background-color: #2ecc71;   
-    margin: 0 auto;
+
+    color:#2c3e50;
+    background-color: #2AF098;   
 }
 
 .container {
-    
+    padding: 40px 0;
+}
+
+
+ .container h1{
+    width:150px;
+    padding: 10px;
+    border-bottom: 5px solid   #2c3e50; 
+    margin: 40px auto;
+}
+.form {
+    font-size:16px;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+input[type="checkbox"] + label  {
+    display:inline-block;
+    width:200px;
+
+}
+
+
+.form-text {
+    display: block;
+    margin 16px 0;
+    padding:20px 40px;
+    border-bottom: 1px solid #27ae60;
     
 }
+
+
+
+

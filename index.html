@@ -1,44 +1,35 @@
 <!DOCTYPE HTML>
 <html lang="pl">
 <head>
-    <meta charset="utf-8" />
-    <link href=style.css rel="stylesheet">
+    <meta charset="utf-8" 
+<meta name="viewport" content="width=device-width, initial-scale=1">        <link href=style.css rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"> 
     <title> MargoBot </title>
 </head>
 <body>
    
    <div class = "container">
-        <div class ="form">
-    
-    <input type="checkbox" name="Afk" /> Anty-AFK
-    
-        <input type="checkbox" name="Podchodzenie" /> Podchodzenie do potworów
-    <br/><br/>
-        <input type="checkbox" name="AutoAtak" /> Automatyczne atakowanie moba
-    <br/><br/>
-        <input type="checkbox" name="Zamykanie" /> Zamykanie okna walki
-    <br/><br/>
-        <input type="text" name="Mini" /> Minimalny poziom
-    <br/><br/>
-            <input type="text" name="Maks" /> Maksymalny poziom
-    <br/><br/>
-        <input type="checkbox" name="Leczenie" /> Leczenie
-    <br/><br/>
-            <input type="checkbox" name="Strzaly" /> Automatyczne zakładanie strzał
-    <br/><br/>
-            NIE <input type="range" name="Drop"  min="0" max="1" step = "1"/> TAK     Automatyczne zbieranie dropu
-    <br/><br/>
-        <input type="checkbox" name="Wszystkie" /> Wszystkie
-    <br/><br/>
-        <input type="checkbox" name="Zwykłe" /> Zwykłe
-    <br/><br/>
-        <input type="checkbox" name="Unikaty" /> Unikaty
-    <br/><br/>
-        <input type="checkbox" name="Heroiczne" /> Heroiczne
-    <br/><br/>
-        <input type="checkbox" name="Legendarne" /> Legendarne
-    <br/><br/>
-    </div>
+       
+            <h1>Formularz</h1>
+        <form class="form" action="index.html" method="post">
+           <input type="checkbox" class="form-text" name="Afk" /><label>Anty-AFK</label>
+            <input type="checkbox" class="form-text" name="Podchodzenie" /><label>Podchodzenie do potworów</label>
+            <label><input type="checkbox" class="form-text" name="AutoAtak" /><label>Automatyczne atakowanie moba</label>
+            <label><input type="checkbox" class="form-text" name="Zamykanie" /><label>Zamykanie okna walki</label>
+            <label><input type="text" class="form-text" name="Mini" /><label>Minimalny poziom</label>
+            <label><input type="text" class="form-text" name="Maks" /><label>Maksymalny poziom</label>
+            <label><input type="checkbox" class="form-text" name="Leczenie" /><label>Leczenie</label>
+            <label><input type="checkbox" class="form-text" name="Strzaly" /><label>Automatyczne</label> zakładanie strzał
+                NIE <input type="range" class="form-text" name="Drop"  min="0" max="1" step = "1"/> TAK     <label></label>Automatyczne zbieranie dropu
+            <label><input type="checkbox" class="form-text" name="Wszystkie" /><label>Wszystkie</label>
+            <label><input type="checkbox" class="form-text" name="Zwykłe" /><label>Zwykłe</label>
+            <label><input type="checkbox" class="form-text" name="Unikaty" /><label>Unikaty</label>
+            <label><input type="checkbox" class="form-text" name="Heroiczne" /><label>Heroiczne</label>
+            <label><input type="checkbox" class="form-text" name="Legendarne" /><label>Legendarne</label>
+
+            <label><input type="submit" class="form form-btn" value="send">
+            
+        </form>
     </div>
 </body>
 </html>
